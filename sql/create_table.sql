@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS shopping_trends (
+    customer_id INTEGER,
+    age INTEGER,
+    gender TEXT,
+    item_purchased TEXT,
+    category TEXT,
+    purchase_amount_usd REAL,
+    location TEXT,
+    size TEXT,
+    color TEXT,
+    season TEXT,
+    review_rating REAL,
+    subscription_status TEXT,
+    shipping_type TEXT,
+    discount_applied TEXT,
+    promo_code_used TEXT,
+    previous_purchases INTEGER,
+    payment_method TEXT,
+    frequency_of_purchases TEXT,
+    age_group TEXT
+);
